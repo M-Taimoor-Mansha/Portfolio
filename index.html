@@ -1,258 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Muhammad Taimoor Mansha | Full Stack MERN Developer</title>
-    <meta
-      name="description"
-      content="3D interactive portfolio of Muhammad Taimoor Mansha, Full Stack MERN developer building fast MongoDB, Express, React and Node.js apps."
-    />
-    <meta name="author" content="Muhammad Taimoor Mansha" />
 
-    <meta property="og:title" content="Muhammad Taimoor Mansha | Full Stack MERN Developer" />
-    <meta property="og:description" content="3D interactive portfolio showcasing MERN stack projects, skills and contact details." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Taimoor Mansha | Full Stack MERN Developer</title>
+  <meta name="description"
+    content="3D interactive portfolio of Muhammad Taimoor Mansha, Full Stack MERN developer building fast MongoDB, Express, React and Node.js apps." />
+  <meta name="author" content="Muhammad Taimoor Mansha" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <meta property="og:title" content="Muhammad Taimoor Mansha | Full Stack MERN Developer" />
+  <meta property="og:description"
+    content="3D interactive portfolio showcasing MERN stack projects, skills and contact details." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-  <body>
-    <!-- LOADER -->
-    <div class="loader" id="loader">
-      <div class="loader-inner">
-        <div class="loader-ring"></div>
-        <p>Loading...</p>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-ring"></div>
+      <p>Loading...</p>
+    </div>
+  </div>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner">
+      <a href="#home" class="brand" aria-label="Taimoor Mansha — Home">
+        <span class="brand-badge">
+          <img src="assets/taimoor-profile.jpeg" alt="Muhammad Taimoor Mansha"
+            onerror="this.remove();this.parentNode.classList.add('no-photo')" />
+          <span class="brand-monogram">TM</span>
+          <i class="brand-dot"></i>
+        </span>
+        <span class="brand-text">Taimoor<span class="accent">.dev</span></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#credentials">Credentials</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-canvas" id="heroCanvas" aria-hidden="true"></div>
+      <div class="orb orb-1" aria-hidden="true"></div>
+      <div class="orb orb-2" aria-hidden="true"></div>
+      <div class="grid-backdrop" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+
+      <div class="hero-content">
+
+        <h1 class="reveal">Muhammad <span class="neon-text">Taimoor Mansha</span></h1>
+        <p class="hero-role reveal">Full Stack MERN Developer</p>
+        <p class="hero-typing reveal">
+          I build with <span class="neon-text" id="typingText"></span><span class="caret"></span>
+        </p>
+
+        <div class="hero-actions reveal">
+          <a class="icon-btn float" href="https://github.com/M-Taimoor-Mansha" target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a class="icon-btn float" style="animation-delay:.35s"
+            href="https://www.linkedin.com/in/muhammad-taimoor-mansha-a09455228" target="_blank"
+            rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a class="icon-btn float" style="animation-delay:.7s" href="mailto:taimoorc067@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a class="btn-primary" href="#projects">View Projects</a>
+        </div>
+
+        <a class="scroll-hint reveal" href="#about">
+          <i class="fa-solid fa-arrow-down bounce"></i> Scroll to explore
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Who I Am</p>
+          <h2>About <span class="neon-text">Me</span></h2>
+        </div>
+
+        <article class="glass about-card reveal">
+          <div class="about-icon float"><i class="fa-solid fa-user"></i></div>
+          <div class="about-body">
+            <span class="chip"><i class="fa-solid fa-wand-magic-sparkles"></i> MERN Stack Developer</span>
+            <p>
+              I am a passionate MERN Stack Developer dedicated to building scalable, user-centric web
+              applications. With a strong foundation in modern JavaScript architectures, I specialize in
+              crafting seamless user interfaces with React and robust, API-driven backend services using
+              Node.js, Express, and MongoDB. I thrive on translating complex requirements into clean,
+              maintainable code and building high-performance digital products.
+            </p>
+            <div class="pill-row">
+              <span class="pill reveal-item">React</span>
+              <span class="pill reveal-item">Node.js</span>
+              <span class="pill reveal-item">MongoDB</span>
+              <span class="pill reveal-item">Express</span>
+              <span class="pill reveal-item">TypeScript</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">My Expertise</p>
+          <h2>Technical <span class="neon-text">Skills</span></h2>
+          <p class="lead">A categorized breakdown of the technologies and tools I use to build full-stack products.</p>
+        </div>
+
+        <div class="grid grid-4" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <!-- CREDENTIALS -->
+    <section id="credentials" class="section credentials">
+      <div class="grid-backdrop soft" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Background</p>
+          <h2>Education &amp; <span class="neon-text">Certificates</span></h2>
+          <p class="lead">Academic foundations strengthened by continuous professional learning.</p>
+        </div>
+
+        <article class="glass edu-card reveal">
+          <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="edu-body">
+            <span class="eyebrow accent-text">Bachelor's Degree</span>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p class="edu-uni">University of the Punjab</p>
+            <div class="meta">
+              <span><i class="fa-regular fa-calendar"></i> 2019 — 2023</span>
+              <span><i class="fa-solid fa-location-dot"></i> Punjab, Pakistan</span>
+            </div>
+          </div>
+          <span class="edu-watermark">BSCS</span>
+        </article>
+
+        <div class="sub-head reveal">
+          <div>
+            <p class="eyebrow accent-text">Continuous Learning</p>
+            <h3>Professional Certificates</h3>
+          </div>
+          <span class="count">11 credentials</span>
+        </div>
+
+        <div class="grid grid-3" id="certGrid"></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Featured <span class="neon-text">Projects</span></h2>
+          <p class="lead">Real builds from my GitHub — hover a card to tilt it in 3D.</p>
+        </div>
+        <div class="grid grid-2" id="featuredGrid"></div>
+
+        <div class="section-head reveal mt-xl">
+          <h3 class="big">Secondary / <span class="neon-text">Other Projects</span></h3>
+          <p class="lead small">Smaller utilities and focused experiments worth exploring.</p>
+        </div>
+        <div class="grid grid-2" id="secondaryGrid"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container narrow">
+        <div class="section-head reveal">
+          <h2>Let's <span class="neon-text">Connect</span></h2>
+          <p class="lead">Open to full-stack roles, freelance work and collaborations.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form class="glass contact-form reveal" id="contactForm">
+            <input type="text" id="cName" placeholder="Your name" aria-label="Your name" required />
+            <input type="text" id="cSubject" placeholder="Subject" aria-label="Subject" />
+            <textarea id="cMessage" rows="6" placeholder="Your message" aria-label="Your message" required></textarea>
+            <button type="submit" class="btn-primary btn-block pulse-hover">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+
+          <div class="contact-links">
+            <a class="glass contact-link reveal-item" href="https://github.com/M-Taimoor-Mansha" target="_blank"
+              rel="noopener noreferrer">
+              <span class="ci"><i class="fa-brands fa-github"></i></span>
+              <span><small>GITHUB</small><b>M-Taimoor-Mansha</b></span>
+            </a>
+            <a class="glass contact-link reveal-item"
+              href="https://www.linkedin.com/in/muhammad-taimoor-mansha-a09455228" target="_blank"
+              rel="noopener noreferrer">
+              <span class="ci"><i class="fa-brands fa-linkedin-in"></i></span>
+              <span><small>LINKEDIN</small><b>muhammad-taimoor-mansha</b></span>
+            </a>
+            <a class="glass contact-link reveal-item" href="mailto:taimoorc067@gmail.com">
+              <span class="ci"><i class="fa-solid fa-envelope"></i></span>
+              <span><small>EMAIL</small><b>taimoorc067@gmail.com</b></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Muhammad Taimoor Mansha — Full Stack MERN Developer</p>
+      <div class="footer-links">
+        <a href="https://github.com/M-Taimoor-Mansha" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/muhammad-taimoor-mansha-a09455228" target="_blank"
+          rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:taimoorc067@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
       </div>
     </div>
+  </footer>
 
-    <!-- CUSTOM CURSOR -->
-    <div class="cursor-dot" id="cursorDot"></div>
-    <div class="cursor-ring" id="cursorRing"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
 
-    <!-- NAVBAR -->
-    <header class="navbar" id="navbar">
-      <nav class="nav-inner">
-        <a href="#home" class="brand" aria-label="Taimoor Mansha — Home">
-          <span class="brand-badge">
-            <img src="assets/taimoor-profile.jpeg" alt="Muhammad Taimoor Mansha" onerror="this.remove();this.parentNode.classList.add('no-photo')" />
-            <span class="brand-monogram">TM</span>
-            <i class="brand-dot"></i>
-          </span>
-          <span class="brand-text">Taimoor<span class="accent">.dev</span></span>
-        </a>
-
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars"></i>
-        </button>
-
-        <ul class="nav-links" id="navLinks">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#credentials">Credentials</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <!-- HERO -->
-      <section id="home" class="hero">
-        <div class="hero-canvas" id="heroCanvas" aria-hidden="true"></div>
-        <div class="orb orb-1" aria-hidden="true"></div>
-        <div class="orb orb-2" aria-hidden="true"></div>
-        <div class="grid-backdrop" aria-hidden="true"></div>
-        <div class="hero-vignette" aria-hidden="true"></div>
-
-        <div class="hero-content">
-          <p class="eyebrow reveal">PORTFOLIO / 2026</p>
-          <h1 class="reveal">Muhammad <span class="neon-text">Taimoor Mansha</span></h1>
-          <p class="hero-role reveal">Full Stack MERN Developer</p>
-          <p class="hero-typing reveal">
-            I build with <span class="neon-text" id="typingText"></span><span class="caret"></span>
-          </p>
-
-          <div class="hero-actions reveal">
-            <a class="icon-btn float" href="https://github.com/M-Taimoor-Mansha" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a class="icon-btn float" style="animation-delay:.35s" href="https://www.linkedin.com/in/muhammad-taimoor-mansha-a09455228" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a class="icon-btn float" style="animation-delay:.7s" href="mailto:taimoorc067@gmail.com" aria-label="Email">
-              <i class="fa-solid fa-envelope"></i>
-            </a>
-            <a class="btn-primary" href="#projects">View Projects</a>
-          </div>
-
-          <a class="scroll-hint reveal" href="#about">
-            <i class="fa-solid fa-arrow-down bounce"></i> Scroll to explore
-          </a>
-        </div>
-      </section>
-
-      <!-- ABOUT -->
-      <section id="about" class="section">
-        <div class="container">
-          <div class="section-head reveal">
-            <p class="eyebrow">Who I Am</p>
-            <h2>About <span class="neon-text">Me</span></h2>
-          </div>
-
-          <article class="glass about-card reveal">
-            <div class="about-icon float"><i class="fa-solid fa-user"></i></div>
-            <div class="about-body">
-              <span class="chip"><i class="fa-solid fa-wand-magic-sparkles"></i> MERN Stack Developer</span>
-              <p>
-                I am a passionate MERN Stack Developer dedicated to building scalable, user-centric web
-                applications. With a strong foundation in modern JavaScript architectures, I specialize in
-                crafting seamless user interfaces with React and robust, API-driven backend services using
-                Node.js, Express, and MongoDB. I thrive on translating complex requirements into clean,
-                maintainable code and building high-performance digital products.
-              </p>
-              <div class="pill-row">
-                <span class="pill reveal-item">React</span>
-                <span class="pill reveal-item">Node.js</span>
-                <span class="pill reveal-item">MongoDB</span>
-                <span class="pill reveal-item">Express</span>
-                <span class="pill reveal-item">TypeScript</span>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <!-- SKILLS -->
-      <section id="skills" class="section">
-        <div class="container">
-          <div class="section-head reveal">
-            <p class="eyebrow">My Expertise</p>
-            <h2>Technical <span class="neon-text">Skills</span></h2>
-            <p class="lead">A categorized breakdown of the technologies and tools I use to build full-stack products.</p>
-          </div>
-
-          <div class="grid grid-4" id="skillsGrid"></div>
-        </div>
-      </section>
-
-      <!-- CREDENTIALS -->
-      <section id="credentials" class="section credentials">
-        <div class="grid-backdrop soft" aria-hidden="true"></div>
-        <div class="container">
-          <div class="section-head reveal">
-            <p class="eyebrow">Background</p>
-            <h2>Education &amp; <span class="neon-text">Certificates</span></h2>
-            <p class="lead">Academic foundations strengthened by continuous professional learning.</p>
-          </div>
-
-          <article class="glass edu-card reveal">
-            <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-            <div class="edu-body">
-              <span class="eyebrow accent-text">Bachelor's Degree</span>
-              <h3>Bachelor of Science in Computer Science</h3>
-              <p class="edu-uni">University of the Punjab</p>
-              <div class="meta">
-                <span><i class="fa-regular fa-calendar"></i> 2019 — 2023</span>
-                <span><i class="fa-solid fa-location-dot"></i> Punjab, Pakistan</span>
-              </div>
-            </div>
-            <span class="edu-watermark">BSCS</span>
-          </article>
-
-          <div class="sub-head reveal">
-            <div>
-              <p class="eyebrow accent-text">Continuous Learning</p>
-              <h3>Professional Certificates</h3>
-            </div>
-            <span class="count">11 credentials</span>
-          </div>
-
-          <div class="grid grid-3" id="certGrid"></div>
-        </div>
-      </section>
-
-      <!-- PROJECTS -->
-      <section id="projects" class="section">
-        <div class="container">
-          <div class="section-head reveal">
-            <h2>Featured <span class="neon-text">Projects</span></h2>
-            <p class="lead">Real builds from my GitHub — hover a card to tilt it in 3D.</p>
-          </div>
-          <div class="grid grid-2" id="featuredGrid"></div>
-
-          <div class="section-head reveal mt-xl">
-            <h3 class="big">Secondary / <span class="neon-text">Other Projects</span></h3>
-            <p class="lead small">Smaller utilities and focused experiments worth exploring.</p>
-          </div>
-          <div class="grid grid-2" id="secondaryGrid"></div>
-        </div>
-      </section>
-
-      <!-- CONTACT -->
-      <section id="contact" class="section">
-        <div class="container narrow">
-          <div class="section-head reveal">
-            <h2>Let's <span class="neon-text">Connect</span></h2>
-            <p class="lead">Open to full-stack roles, freelance work and collaborations.</p>
-          </div>
-
-          <div class="contact-grid">
-            <form class="glass contact-form reveal" id="contactForm">
-              <input type="text" id="cName" placeholder="Your name" aria-label="Your name" required />
-              <input type="text" id="cSubject" placeholder="Subject" aria-label="Subject" />
-              <textarea id="cMessage" rows="6" placeholder="Your message" aria-label="Your message" required></textarea>
-              <button type="submit" class="btn-primary btn-block pulse-hover">
-                <i class="fa-solid fa-paper-plane"></i> Send Message
-              </button>
-            </form>
-
-            <div class="contact-links">
-              <a class="glass contact-link reveal-item" href="https://github.com/M-Taimoor-Mansha" target="_blank" rel="noopener noreferrer">
-                <span class="ci"><i class="fa-brands fa-github"></i></span>
-                <span><small>GITHUB</small><b>M-Taimoor-Mansha</b></span>
-              </a>
-              <a class="glass contact-link reveal-item" href="https://www.linkedin.com/in/muhammad-taimoor-mansha-a09455228" target="_blank" rel="noopener noreferrer">
-                <span class="ci"><i class="fa-brands fa-linkedin-in"></i></span>
-                <span><small>LINKEDIN</small><b>muhammad-taimoor-mansha</b></span>
-              </a>
-              <a class="glass contact-link reveal-item" href="mailto:taimoorc067@gmail.com">
-                <span class="ci"><i class="fa-solid fa-envelope"></i></span>
-                <span><small>EMAIL</small><b>taimoorc067@gmail.com</b></span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container footer-inner">
-        <p>&copy; <span id="year"></span> Muhammad Taimoor Mansha — Full Stack MERN Developer</p>
-        <div class="footer-links">
-          <a href="https://github.com/M-Taimoor-Mansha" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/muhammad-taimoor-mansha-a09455228" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="mailto:taimoorc067@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-        </div>
-      </div>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-    <script src="script.js"></script>
-  </body>
 </html>
