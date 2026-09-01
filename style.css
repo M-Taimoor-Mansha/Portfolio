@@ -1,21 +1,54 @@
 /* ============================================================
    Muhammad Taimoor Mansha — Portfolio (Vanilla CSS)
-   Dark neon / glassmorphism theme
+   Clean slate theme with electric-sky accents
    ============================================================ */
 
+/* ---------- Design Tokens ---------- */
 :root {
-  --background: #08091a;
-  --foreground: #f0fafb;
-  --card: #0f1226;
-  --muted: #1c2038;
-  --muted-foreground: #9aa7b8;
-  --primary: #0ceada;
-  --accent: #d64df5;
-  --violet: #7c5cf7;
-  --border: rgba(255, 255, 255, 0.1);
-  --gradient-neon: linear-gradient(120deg, #0ceada, #7c5cf7 55%, #d64df5);
-  --glass-bg: rgba(20, 24, 48, 0.55);
+  /* Backgrounds */
+  --background: #0f172a;          /* Deep Dark Slate */
+  --background-soft: #162032;     /* Slightly lighter page panels */
+  --card: #1e293b;                /* Card / Container Backgrounds */
+  --card-hover: #243447;          /* Card hover state */
+
+  /* Text */
+  --foreground: #f8fafc;          /* Headings (H1-H6) */
+  --body: #94a3b8;                /* Body Text */
+  --muted: #64748b;               /* Muted Text (dates, tags, secondary) */
+  --muted-foreground: #64748b;
+
+  /* Accents */
+  --primary: #38bdf8;             /* Electric Sky Blue */
+  --primary-hover: #0ea5e9;       /* Darker sky for hover */
+  --primary-glow: rgba(56, 189, 248, 0.35);
+  --accent: #38bdf8;
+
+  /* Borders */
+  --border: #334155;              /* Subtle card borders */
+  --border-light: rgba(148, 163, 184, 0.15);
+
+  /* Gradients */
+  --gradient-sky: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 100%);
+  --gradient-hero: radial-gradient(ellipse at top, rgba(56, 189, 248, 0.12), transparent 55%);
+
+  /* Glass / utility */
+  --glass-bg: rgba(30, 41, 59, 0.55);
   --radius: 0.9rem;
+  --radius-sm: 0.5rem;
+  --radius-lg: 1rem;
+
+  /* Typography scale */
+  --text-xs: clamp(0.75rem, 1.2vw, 0.8rem);
+  --text-sm: clamp(0.85rem, 1.4vw, 0.95rem);
+  --text-base: clamp(1rem, 1.6vw, 1.05rem);
+  --text-lg: clamp(1.1rem, 2vw, 1.25rem);
+  --text-xl: clamp(1.35rem, 2.8vw, 1.65rem);
+  --text-2xl: clamp(1.65rem, 3.6vw, 2.1rem);
+  --text-3xl: clamp(2rem, 5vw, 3rem);
+
+  /* Spacing */
+  --section-gap: 6rem;
+  --container-max: 1152px;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -24,32 +57,78 @@ html { scroll-behavior: smooth; }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: "Rajdhani", system-ui, sans-serif;
+  color: var(--body);
+  font-family: "Rajdhani", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: var(--text-base);
+  line-height: 1.65;
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, .font-display, .brand-text, .eyebrow, .btn-primary {
+/* ---------- Typography ---------- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--foreground);
+  font-family: "Orbitron", system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+h1 { font-size: var(--text-3xl); }
+h2 { font-size: var(--text-2xl); }
+h3 { font-size: var(--text-xl); }
+h4 { font-size: var(--text-lg); }
+h5 { font-size: var(--text-base); }
+h6 { font-size: var(--text-sm); }
+
+p { color: var(--body); line-height: 1.7; }
+
+.font-display, .brand-text, .eyebrow, .btn-primary {
   font-family: "Orbitron", system-ui, sans-serif;
 }
 
-a { color: inherit; text-decoration: none; }
-img { display: block; max-width: 100%; }
-::selection { background: rgba(12, 234, 218, 0.3); }
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.25s ease, opacity 0.25s ease;
+}
 
+a:hover { color: var(--primary-hover); }
+
+img { display: block; max-width: 100%; }
+::selection { background: rgba(56, 189, 248, 0.25); color: var(--foreground); }
+
+/* ---------- Scrollbar ---------- */
 ::-webkit-scrollbar { width: 10px; }
-::-webkit-scrollbar-track { background: #0a0c1c; }
-::-webkit-scrollbar-thumb { background: var(--gradient-neon); border-radius: 999px; border: 2px solid #0a0c1c; }
+::-webkit-scrollbar-track { background: var(--background-soft); }
+::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 999px; border: 2px solid var(--background-soft); }
+::-webkit-scrollbar-thumb:hover { background: var(--primary-hover); }
 
 /* ---------- Helpers ---------- */
 .glass {
   background: var(--glass-bg);
   backdrop-filter: blur(16px) saturate(140%);
   -webkit-backdrop-filter: blur(16px) saturate(140%);
-  border: 1px solid rgba(12, 234, 218, 0.14);
+  border: 1px solid var(--border-light);
 }
+
+/* Reusable card shell */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+}
+
+.card:hover {
+  background: var(--card-hover);
+  border-color: var(--border-light);
+  box-shadow: 0 18px 40px -18px rgba(56, 189, 248, 0.22);
+  transform: translateY(-4px);
+}
+
 .neon-text {
-  background: var(--gradient-neon);
+  background: var(--gradient-sky);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -59,8 +138,8 @@ img { display: block; max-width: 100%; }
 .grid-backdrop {
   position: absolute; inset: 0; pointer-events: none; opacity: 0.4;
   background-image:
-    linear-gradient(rgba(12, 234, 218, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(12, 234, 218, 0.06) 1px, transparent 1px);
+    linear-gradient(rgba(56, 189, 248, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(56, 189, 248, 0.06) 1px, transparent 1px);
   background-size: 48px 48px;
 }
 .grid-backdrop.soft { opacity: 0.25; }
@@ -186,16 +265,100 @@ img { display: block; max-width: 100%; }
 .float { animation: floaty 3.4s ease-in-out infinite; }
 @keyframes floaty { 50% { transform: translateY(-10px); } }
 
-.btn-primary {
-  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
-  padding: 0.85rem 1.6rem; border-radius: 999px; border: 0; cursor: pointer;
-  background: var(--primary); color: #05121a; font-weight: 700; letter-spacing: 0.05em;
-  font-size: 0.9rem; transition: transform 0.25s, box-shadow 0.3s;
+/* ---------- Buttons ---------- */
+.btn,
+.btn-primary,
+.btn-secondary,
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.6rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-family: "Orbitron", system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: center;
+  white-space: nowrap;
+  transition: transform 0.25s ease, box-shadow 0.3s ease, background 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+  will-change: transform;
 }
-.btn-primary:hover { transform: scale(1.05); box-shadow: 0 0 32px rgba(12, 234, 218, 0.55); }
+
+.btn:hover,
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-ghost:hover { transform: translateY(-2px); }
+
+.btn:active,
+.btn-primary:active,
+.btn-secondary:active,
+.btn-ghost:active { transform: translateY(0); }
+
+/* Primary filled button */
+.btn-primary {
+  background: var(--gradient-sky);
+  color: #0f172a;
+  border-color: transparent;
+  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.25);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 6px 24px var(--primary-glow);
+  filter: brightness(1.08);
+}
+
+/* Secondary outlined button */
+.btn-secondary {
+  background: transparent;
+  color: var(--primary);
+  border-color: var(--border);
+}
+
+.btn-secondary:hover {
+  background: rgba(56, 189, 248, 0.08);
+  border-color: var(--primary);
+  color: var(--primary);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.18);
+}
+
+/* Ghost button */
+.btn-ghost {
+  background: transparent;
+  color: var(--body);
+  border-color: transparent;
+}
+
+.btn-ghost:hover {
+  background: var(--card);
+  color: var(--foreground);
+}
+
+/* Sizes */
+.btn-sm { padding: 0.55rem 1.1rem; font-size: 0.78rem; }
+.btn-lg { padding: 1rem 2.2rem; font-size: 1rem; }
 .btn-block { width: 100%; }
-.pulse-hover:hover { animation: pulse 1.8s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
-@keyframes pulse { 50% { opacity: 0.85; } }
+
+/* Icon support */
+.btn i, .btn svg,
+.btn-primary i, .btn-primary svg,
+.btn-secondary i, .btn-secondary svg,
+.btn-ghost i, .btn-ghost svg { transition: transform 0.25s ease; }
+
+.btn:hover i, .btn:hover svg,
+.btn-primary:hover i, .btn-primary:hover svg,
+.btn-secondary:hover i, .btn-secondary:hover svg,
+.btn-ghost:hover i, .btn-ghost:hover svg { transform: translateX(3px); }
+
+/* Pulsing CTA */
+.btn-pulse { animation: pulse-glow 1.8s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 4px 14px rgba(56, 189, 248, 0.25); }
+  50% { box-shadow: 0 4px 28px rgba(56, 189, 248, 0.55); }
+}
 
 .scroll-hint { display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 3.5rem; font-size: 0.9rem; color: var(--muted-foreground); transition: color 0.25s; }
 .scroll-hint:hover { color: var(--primary); }
@@ -393,4 +556,97 @@ img { display: block; max-width: 100%; }
   }
   .nav-links.open { display: flex; }
   .edu-watermark { display: none; }
+}
+
+/* ============ ADDED: LOADER COUNTER ============ */
+.loader-logo{
+  position:absolute; inset:0; display:grid; place-items:center;
+  font-family:"Orbitron",sans-serif; font-weight:900; font-size:1.1rem;
+  color:var(--accent); animation:logoPulse 1.4s ease-in-out infinite;
+}
+.loader-inner{position:relative;}
+.loader-count{margin-top:1.1rem; font-family:"Orbitron",sans-serif; letter-spacing:.18em; color:var(--accent);}
+@keyframes logoPulse{0%,100%{opacity:.55; transform:scale(.94)}50%{opacity:1; transform:scale(1.06)}}
+
+/* ============ ADDED: AMBIENT BACKGROUND ============ */
+.ambient-canvas{
+  position:fixed; inset:0; width:100%; height:100%;
+  z-index:0; pointer-events:none; opacity:.55;
+}
+.ambient-spotlight{
+  position:fixed; inset:0; z-index:0; pointer-events:none;
+  background:radial-gradient(600px circle at var(--mx,50%) var(--my,40%),
+    rgba(12,234,218,.10), rgba(214,77,245,.06) 40%, transparent 70%);
+  transition:background .12s linear;
+}
+.navbar, main, .footer{position:relative; z-index:2;}
+
+/* ============ ADDED: EXPLODING EMBLEM ============ */
+.emblem-wrap{margin-top:2.2rem; display:flex; flex-direction:column; align-items:center; gap:.9rem;}
+.emblem{
+  position:relative; height:74px; width:74px; border-radius:22px; cursor:pointer;
+  border:1px solid rgba(12,234,218,.35); background:rgba(255,255,255,.04);
+  color:var(--accent); font-size:1.5rem; backdrop-filter:blur(10px);
+  box-shadow:0 0 26px rgba(12,234,218,.22);
+  transition:transform .3s ease, box-shadow .3s ease;
+  animation:float 5s ease-in-out infinite;
+}
+.emblem:hover{transform:scale(1.08) rotate(6deg); box-shadow:0 0 40px rgba(12,234,218,.45);}
+.emblem.boom{transform:scale(.85);}
+.emblem-particle{
+  position:absolute; left:50%; top:50%; height:6px; width:6px; border-radius:50%;
+  background:var(--accent); pointer-events:none;
+  animation:burst .8s ease-out forwards;
+}
+@keyframes burst{
+  0%{opacity:1; transform:translate(-50%,-50%) scale(1)}
+  100%{opacity:0; transform:translate(calc(-50% + var(--tx)), calc(-50% + var(--ty))) scale(.2)}
+}
+.emblem-badge{
+  opacity:0; transform:translateY(10px); pointer-events:none;
+  padding:.7rem 1.15rem; border-radius:999px;
+  border:1px solid rgba(12,234,218,.3); background:rgba(255,255,255,.05);
+  backdrop-filter:blur(10px); transition:opacity .4s ease, transform .4s ease;
+  display:flex; flex-direction:column; align-items:center; gap:.1rem;
+}
+.emblem-badge b{font-family:"Orbitron",sans-serif; font-size:.8rem; color:var(--accent); letter-spacing:.12em;}
+.emblem-badge small{color:var(--muted); font-size:.72rem;}
+.emblem-badge.show{opacity:1; transform:translateY(0);}
+
+/* ============ ADDED: CERT TILT ============ */
+.cert-card{transform-style:preserve-3d; will-change:transform; transition:transform .35s ease;}
+
+/* ============================================================
+   SCROLL-UP ONLY REVEAL
+   Apply to any element with: data-scroll-up  (or class .scroll-up)
+   Hidden by default -> animates in only while scrolling UP.
+   ============================================================ */
+[data-scroll-up],
+.scroll-up {
+  opacity: 0;
+  transform: translateY(40px);
+  will-change: opacity, transform; /* GPU hint for 60fps */
+}
+
+/* Scrolling DOWN (or already passed): show normally, no animation */
+[data-scroll-up].scroll-normal,
+.scroll-up.scroll-normal {
+  opacity: 1;
+  transform: none;
+}
+
+/* Added by JS only when the user scrolls UP */
+[data-scroll-up].animate-up,
+.scroll-up.animate-up {
+  animation: fadeSlideUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Accessibility: respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  [data-scroll-up], .scroll-up { opacity: 1; transform: none; animation: none; }
 }
