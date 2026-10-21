@@ -1,0 +1,2454 @@
+{
+ "url": "http://localhost:3456",
+ "at": "2026-10-21T14:49:55.791Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.11,
+    0.34,
+    0.77,
+    1,
+    0.6,
+    0.57,
+    0.76,
+    0.67
+   ],
+   "motion": {
+    "elements": 50,
+    "css": 1,
+    "transitions": 4,
+    "scripted": 45,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6502,
+     "screens": 7.2,
+     "words": 532,
+     "img": 7,
+     "video": 0,
+     "canvas": 2,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "photo-1551288049-bebda4e38f71?w=800&q=80",
+      "photo-1556742049-0cfed4f6a45d?w=800&q=80",
+      "photo-1492144534655-ae79c964c9d7?w=800&q=80",
+      "photo-1470225620780-dba8ba36b745?w=800&q=80",
+      "photo-1614064641938-3bbee52942c7?w=800&q=80",
+      "photo-1506784983877-45594efa4cbe?w=800&q=80"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Muhammad Taimoor Mansha",
+     "words": 3,
+     "chars": 23,
+     "lines": 2,
+     "size": 56,
+     "vw": 3.9,
+     "font": "Orbitron",
+     "weight": 900,
+     "tracking": -0.02,
+     "leading": 1.1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.48,
+     "top": 287,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Muhammad Taimoor Mansha",
+     "words": 3,
+     "lines": 2,
+     "size": 56,
+     "font": "Orbitron"
+    },
+    "headings": [
+     {
+      "text": "Muhammad Taimoor Mansha",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Orbitron",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.48,
+      "top": 287,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "About Me",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1062,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Technical Skills",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1697,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Education & Certificates",
+      "words": 3,
+      "chars": 24,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2374,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "BSCS",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Orbitron",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.65,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.17,
+      "top": 2540,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Featured Projects",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 3847,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Secondary / Other Projects",
+      "words": 4,
+      "chars": 26,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 5034,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's Connect",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.63,
+      "top": 5807,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 7,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Rajdhani",
+       "share": 0.77,
+       "mono": false
+      },
+      {
+       "family": "Orbitron",
+       "share": 0.23,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      16,
+      18,
+      24,
+      36,
+      56,
+      72
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Rajdhani",
+      "size": 14,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.4
+     },
+     "measureChars": 67,
+     "max": {
+      "size": 72,
+      "vw": 5,
+      "font": "Orbitron",
+      "text": "BSCS"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 7,
+     "microLabelShare": 0.017,
+     "microSamples": [
+      "Who I Am",
+      "My Expertise",
+      "Background",
+      "Featured",
+      "Featured",
+      "Featured"
+     ],
+     "upperShare": 0.09,
+     "centerShare": 0.16,
+     "smallText": 27
+    },
+    "eyebrows": [
+     {
+      "text": "Who I Am",
+      "above": "About Me",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1030
+     },
+     {
+      "text": "My Expertise",
+      "above": "Technical Skills",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1665
+     },
+     {
+      "text": "Background",
+      "above": "Education & Certificates",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2342
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 12,
+      "top": 2857
+     },
+     {
+      "text": "02",
+      "size": 12,
+      "top": 2857
+     },
+     {
+      "text": "03",
+      "size": 12,
+      "top": 2857
+     },
+     {
+      "text": "04",
+      "size": 12,
+      "top": 3084
+     },
+     {
+      "text": "05",
+      "size": 12,
+      "top": 3084
+     },
+     {
+      "text": "06",
+      "size": 12,
+      "top": 3084
+     },
+     {
+      "text": "07",
+      "size": 12,
+      "top": 3311
+     },
+     {
+      "text": "08",
+      "size": 12,
+      "top": 3311
+     },
+     {
+      "text": "09",
+      "size": 12,
+      "top": 3311
+     }
+    ],
+    "color": {
+     "bodyBg": "#f5f0e8",
+     "bodyBgHsl": {
+      "h": 37,
+      "s": 0.39,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f0e8",
+       "top": 74,
+       "hsl": {
+        "h": 37,
+        "s": 0.39,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#fffcf7",
+       "top": 1144,
+       "hsl": {
+        "h": 38,
+        "s": 1,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#ede5d8",
+       "top": 2262,
+       "hsl": {
+        "h": 37,
+        "s": 0.37,
+        "l": 0.89
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5a5349",
+       "share": 0.34
+      },
+      {
+       "color": "#356b8c",
+       "share": 0.19
+      },
+      {
+       "color": "#252525",
+       "share": 0.16
+      },
+      {
+       "color": "#514b43",
+       "share": 0.14
+      },
+      {
+       "color": "#3d3832",
+       "share": 0.14
+      }
+     ],
+     "button": {
+      "bg": "#dce8ed",
+      "hsl": {
+       "h": 198,
+       "s": 0.32,
+       "l": 0.9
+      },
+      "fg": "#356b8c"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 2,
+     "radius": 10,
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "View Projects"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 3,
+     "scrims": 7,
+     "gradientSamples": [
+      "div#ambientSpotlight.ambient-spotlight → radial-gradient(600px at 50% 40%, rgba(53, 107, 140, 0.05), rgba(193, 154, 107, 0.03) 40%, rgba(0, 0, 0, 0) 70",
+      "div.grid-backdrop → linear-gradient(rgb(221, 210, 194) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgb(221, 210, 194) 1px, ",
+      "div.grid-backdrop.soft → linear-gradient(rgb(221, 210, 194) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgb(221, 210, 194) 1px, "
+     ],
+     "gradientText": 0,
+     "hairlines": 2,
+     "hairlineSamples": [
+      "article.glass.edu-card 1104px",
+      "footer.footer 1440px"
+     ],
+     "outlinedBoxes": 26,
+     "dashed": 0,
+     "blurred": 27,
+     "roundedBoxes": 30,
+     "boxRadius": 16,
+     "squareMedia": 2,
+     "roundedMedia": 6,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1853
+      },
+      {
+       "count": 11,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 2836
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.92
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 74,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "orbitron",
+     "rajdhani",
+     "font awesome 6 brands",
+     "font awesome 6 free"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 6502,
+    "margins": {
+     "left": 169,
+     "right": 169
+    },
+    "sections": [
+     {
+      "sel": "section#home.hero",
+      "tag": "section",
+      "top": 74,
+      "height": 900,
+      "words": 24,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Muhammad",
+       "size": 56,
+       "tag": "h1"
+      },
+      "left": 420,
+      "right": 420,
+      "textLeft": 420,
+      "textRight": 420,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.section",
+      "tag": "section",
+      "top": 974,
+      "height": 611,
+      "words": 88,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "About",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 329,
+      "right": 586,
+      "textLeft": 329,
+      "textRight": 586,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#skills.section",
+      "tag": "section",
+      "top": 1585,
+      "height": 677,
+      "words": 74,
+      "media": 0,
+      "middle": 55,
+      "heading": {
+       "text": "Technical",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 193,
+      "right": 235,
+      "textLeft": 193,
+      "textRight": 235,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid-backdrop.soft",
+      "tag": "div",
+      "top": 2262,
+      "height": 1494,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.container",
+      "tag": "div",
+      "top": 2342,
+      "height": 1334,
+      "words": 123,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "BSCS",
+       "size": 72,
+       "tag": "span"
+      },
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 168,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#projects.section",
+      "tag": "section",
+      "top": 3755,
+      "height": 1960,
+      "words": 231,
+      "media": 6,
+      "middle": 0,
+      "heading": {
+       "text": "Featured",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 169,
+      "right": 169,
+      "textLeft": 189,
+      "textRight": 191,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.section",
+      "tag": "section",
+      "top": 5715,
+      "height": 693,
+      "words": 20,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let's",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 289,
+      "right": 371,
+      "textLeft": 480,
+      "textRight": 371,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Muhammad Taimoor Mansha",
+      "size": 56,
+      "top": 287,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 189,
+      "n": 7
+     },
+     {
+      "x": 753,
+      "n": 7
+     },
+     {
+      "x": 168,
+      "n": 1
+     },
+     {
+      "x": 291,
+      "n": 1
+     },
+     {
+      "x": 329,
+      "n": 1
+     },
+     {
+      "x": 475,
+      "n": 1
+     },
+     {
+      "x": 1039,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 19,
+    "bodySize": 14,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.11,
+    0.53,
+    0.82,
+    1,
+    1,
+    0.83,
+    0.92,
+    0.77,
+    0.88,
+    0.82
+   ],
+   "motion": {
+    "elements": 50,
+    "css": 1,
+    "transitions": 4,
+    "scripted": 45,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 9909,
+     "screens": 9.7,
+     "words": 525,
+     "img": 7,
+     "video": 0,
+     "canvas": 2,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "photo-1551288049-bebda4e38f71?w=800&q=80",
+      "photo-1556742049-0cfed4f6a45d?w=800&q=80",
+      "photo-1492144534655-ae79c964c9d7?w=800&q=80",
+      "photo-1470225620780-dba8ba36b745?w=800&q=80",
+      "photo-1614064641938-3bbee52942c7?w=800&q=80",
+      "photo-1506784983877-45594efa4cbe?w=800&q=80"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Muhammad Taimoor Mansha",
+     "words": 3,
+     "chars": 23,
+     "lines": 2,
+     "size": 46.1,
+     "vw": 6,
+     "font": "Orbitron",
+     "weight": 900,
+     "tracking": -0.02,
+     "leading": 1.1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 360,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Muhammad Taimoor Mansha",
+     "words": 3,
+     "lines": 2,
+     "size": 46.1,
+     "font": "Orbitron"
+    },
+    "headings": [
+     {
+      "text": "Muhammad Taimoor Mansha",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 46.1,
+      "vw": 6,
+      "font": "Orbitron",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 360,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "About Me",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 4,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1170,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Technical Skills",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 4,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1727,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Education & Certificates",
+      "words": 3,
+      "chars": 24,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 4,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2844,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Featured Projects",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 4,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5646,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Secondary / Other Projects",
+      "words": 4,
+      "chars": 26,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 4,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 7757,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's Connect",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 4,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 8930,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 7,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Rajdhani",
+       "share": 0.77,
+       "mono": false
+      },
+      {
+       "family": "Orbitron",
+       "share": 0.23,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      16,
+      18,
+      22,
+      31,
+      46
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Rajdhani",
+      "size": 14,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.4
+     },
+     "measureChars": 67,
+     "max": {
+      "size": 46.1,
+      "vw": 6,
+      "font": "Orbitron",
+      "text": "Muhammad"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 7,
+     "microLabelShare": 0.017,
+     "microSamples": [
+      "Who I Am",
+      "My Expertise",
+      "Background",
+      "Featured",
+      "Featured",
+      "Featured"
+     ],
+     "upperShare": 0.09,
+     "centerShare": 0.17,
+     "smallText": 27
+    },
+    "eyebrows": [
+     {
+      "text": "Who I Am",
+      "above": "About Me",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1138
+     },
+     {
+      "text": "My Expertise",
+      "above": "Technical Skills",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1695
+     },
+     {
+      "text": "Background",
+      "above": "Education & Certificates",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2812
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 12,
+      "top": 3315
+     },
+     {
+      "text": "02",
+      "size": 12,
+      "top": 3520
+     },
+     {
+      "text": "03",
+      "size": 12,
+      "top": 3724
+     },
+     {
+      "text": "04",
+      "size": 12,
+      "top": 3929
+     },
+     {
+      "text": "05",
+      "size": 12,
+      "top": 4134
+     },
+     {
+      "text": "06",
+      "size": 12,
+      "top": 4339
+     },
+     {
+      "text": "07",
+      "size": 12,
+      "top": 4543
+     },
+     {
+      "text": "08",
+      "size": 12,
+      "top": 4748
+     },
+     {
+      "text": "09",
+      "size": 12,
+      "top": 4953
+     }
+    ],
+    "color": {
+     "bodyBg": "#f5f0e8",
+     "bodyBgHsl": {
+      "h": 37,
+      "s": 0.39,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f0e8",
+       "top": 74,
+       "hsl": {
+        "h": 37,
+        "s": 0.39,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#fffcf7",
+       "top": 1246,
+       "hsl": {
+        "h": 38,
+        "s": 1,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#ede5d8",
+       "top": 2756,
+       "hsl": {
+        "h": 37,
+        "s": 0.37,
+        "l": 0.89
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5a5349",
+       "share": 0.33
+      },
+      {
+       "color": "#356b8c",
+       "share": 0.19
+      },
+      {
+       "color": "#252525",
+       "share": 0.16
+      },
+      {
+       "color": "#514b43",
+       "share": 0.14
+      },
+      {
+       "color": "#3d3832",
+       "share": 0.14
+      }
+     ],
+     "button": {
+      "bg": "#dce8ed",
+      "hsl": {
+       "h": 198,
+       "s": 0.32,
+       "l": 0.9
+      },
+      "fg": "#356b8c"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 2,
+     "radius": 10,
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "View Projects"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 3,
+     "scrims": 7,
+     "gradientSamples": [
+      "div#ambientSpotlight.ambient-spotlight → radial-gradient(600px at 50% 40%, rgba(53, 107, 140, 0.05), rgba(193, 154, 107, 0.03) 40%, rgba(0, 0, 0, 0) 70",
+      "div.grid-backdrop → linear-gradient(rgb(221, 210, 194) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgb(221, 210, 194) 1px, ",
+      "div.grid-backdrop.soft → linear-gradient(rgb(221, 210, 194) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgb(221, 210, 194) 1px, "
+     ],
+     "gradientText": 0,
+     "hairlines": 2,
+     "hairlineSamples": [
+      "article.glass.edu-card 720px",
+      "footer.footer 768px"
+     ],
+     "outlinedBoxes": 26,
+     "dashed": 0,
+     "blurred": 27,
+     "roundedBoxes": 30,
+     "boxRadius": 16,
+     "squareMedia": 2,
+     "roundedMedia": 6,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.93
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 74,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "orbitron",
+     "rajdhani",
+     "font awesome 6 brands",
+     "font awesome 6 free"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 9909,
+    "margins": {
+     "left": 25,
+     "right": 25
+    },
+    "sections": [
+     {
+      "sel": "section#home.hero",
+      "tag": "section",
+      "top": 74,
+      "height": 1024,
+      "words": 24,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Muhammad",
+       "size": 46,
+       "tag": "h1"
+      },
+      "left": 137,
+      "right": 137,
+      "textLeft": 137,
+      "textRight": 137,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.section",
+      "tag": "section",
+      "top": 1098,
+      "height": 541,
+      "words": 88,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "About",
+       "size": 31,
+       "tag": "h2"
+      },
+      "left": 157,
+      "right": 86,
+      "textLeft": 157,
+      "textRight": 86,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#skills.section",
+      "tag": "section",
+      "top": 1639,
+      "height": 1117,
+      "words": 74,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Technical",
+       "size": 31,
+       "tag": "h2"
+      },
+      "left": 49,
+      "right": 99,
+      "textLeft": 49,
+      "textRight": 99,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid-backdrop.soft",
+      "tag": "div",
+      "top": 2756,
+      "height": 2823,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.glass.edu-card",
+      "tag": "article",
+      "top": 2964,
+      "height": 197,
+      "words": 17,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Bachelor of Science in Computer Science",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 147,
+      "right": 141,
+      "textLeft": 147,
+      "textRight": 141,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div#certGrid.grid.grid-3",
+      "tag": "div",
+      "top": 3294,
+      "height": 2228,
+      "words": 86,
+      "media": 0,
+      "middle": 295,
+      "heading": {
+       "text": "Responsive Web Design",
+       "size": 14,
+       "tag": "h4"
+      },
+      "left": 45,
+      "right": 45,
+      "textLeft": 45,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#projects.section",
+      "tag": "section",
+      "top": 5578,
+      "height": 3284,
+      "words": 231,
+      "media": 6,
+      "middle": 0,
+      "heading": {
+       "text": "Featured",
+       "size": 31,
+       "tag": "h2"
+      },
+      "left": 25,
+      "right": 25,
+      "textLeft": 45,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.section",
+      "tag": "section",
+      "top": 8862,
+      "height": 952,
+      "words": 20,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let's",
+       "size": 31,
+       "tag": "h2"
+      },
+      "left": 49,
+      "right": 49,
+      "textLeft": 105,
+      "textRight": 173,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Muhammad Taimoor Mansha",
+      "size": 46,
+      "top": 360,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 45,
+      "n": 16
+     },
+     {
+      "x": 147,
+      "n": 2
+     },
+     {
+      "x": 24,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 19,
+    "bodySize": 14,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.27,
+    0.7,
+    0.7,
+    0.88,
+    1,
+    1,
+    1,
+    0.77,
+    0.91,
+    0.91,
+    0.63,
+    0.85
+   ],
+   "motion": {
+    "elements": 47,
+    "css": 1,
+    "transitions": 4,
+    "scripted": 42,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 10918,
+     "screens": 12.9,
+     "words": 525,
+     "img": 7,
+     "video": 0,
+     "canvas": 2,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "photo-1551288049-bebda4e38f71?w=800&q=80",
+      "photo-1556742049-0cfed4f6a45d?w=800&q=80",
+      "photo-1492144534655-ae79c964c9d7?w=800&q=80",
+      "photo-1470225620780-dba8ba36b745?w=800&q=80",
+      "photo-1614064641938-3bbee52942c7?w=800&q=80",
+      "photo-1506784983877-45594efa4cbe?w=800&q=80"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Muhammad Taimoor Mansha",
+     "words": 3,
+     "chars": 23,
+     "lines": 2,
+     "size": 36,
+     "vw": 9.2,
+     "font": "Orbitron",
+     "weight": 900,
+     "tracking": -0.02,
+     "leading": 1.1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 250,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Muhammad Taimoor Mansha",
+     "words": 3,
+     "lines": 2,
+     "size": 36,
+     "font": "Orbitron"
+    },
+    "headings": [
+     {
+      "text": "Muhammad Taimoor Mansha",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Orbitron",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 250,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "About Me",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 990,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Technical Skills",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1833,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Education & Certificates",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3205,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Featured Projects",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6249,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Secondary / Other Projects",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 8551,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's Connect",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Orbitron",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 9848,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 7,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Rajdhani",
+       "share": 0.77,
+       "mono": false
+      },
+      {
+       "family": "Orbitron",
+       "share": 0.23,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      16,
+      18,
+      22,
+      28,
+      36
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Rajdhani",
+      "size": 14,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.4
+     },
+     "measureChars": 36,
+     "max": {
+      "size": 36,
+      "vw": 9.2,
+      "font": "Orbitron",
+      "text": "Muhammad"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 7,
+     "microLabelShare": 0.017,
+     "microSamples": [
+      "Who I Am",
+      "My Expertise",
+      "Background",
+      "Featured",
+      "Featured",
+      "Featured"
+     ],
+     "upperShare": 0.09,
+     "centerShare": 0.17,
+     "smallText": 27
+    },
+    "eyebrows": [
+     {
+      "text": "Who I Am",
+      "above": "About Me",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 958
+     },
+     {
+      "text": "My Expertise",
+      "above": "Technical Skills",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1800
+     },
+     {
+      "text": "Background",
+      "above": "Education & Certificates",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3172
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 12,
+      "top": 3873
+     },
+     {
+      "text": "02",
+      "size": 12,
+      "top": 4078
+     },
+     {
+      "text": "03",
+      "size": 12,
+      "top": 4305
+     },
+     {
+      "text": "04",
+      "size": 12,
+      "top": 4509
+     },
+     {
+      "text": "05",
+      "size": 12,
+      "top": 4737
+     },
+     {
+      "text": "06",
+      "size": 12,
+      "top": 4941
+     },
+     {
+      "text": "07",
+      "size": 12,
+      "top": 5146
+     },
+     {
+      "text": "08",
+      "size": 12,
+      "top": 5351
+     },
+     {
+      "text": "09",
+      "size": 12,
+      "top": 5556
+     }
+    ],
+    "color": {
+     "bodyBg": "#f5f0e8",
+     "bodyBgHsl": {
+      "h": 37,
+      "s": 0.39,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f0e8",
+       "top": 74,
+       "hsl": {
+        "h": 37,
+        "s": 0.39,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#fffcf7",
+       "top": 1063,
+       "hsl": {
+        "h": 38,
+        "s": 1,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#ede5d8",
+       "top": 3116,
+       "hsl": {
+        "h": 37,
+        "s": 0.37,
+        "l": 0.89
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5a5349",
+       "share": 0.33
+      },
+      {
+       "color": "#356b8c",
+       "share": 0.19
+      },
+      {
+       "color": "#252525",
+       "share": 0.16
+      },
+      {
+       "color": "#514b43",
+       "share": 0.14
+      },
+      {
+       "color": "#3d3832",
+       "share": 0.14
+      }
+     ],
+     "button": {
+      "bg": "#dce8ed",
+      "hsl": {
+       "h": 198,
+       "s": 0.32,
+       "l": 0.9
+      },
+      "fg": "#356b8c"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 2,
+     "radius": 10,
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "View Projects"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 3,
+     "scrims": 7,
+     "gradientSamples": [
+      "div#ambientSpotlight.ambient-spotlight → radial-gradient(600px at 50% 40%, rgba(53, 107, 140, 0.05), rgba(193, 154, 107, 0.03) 40%, rgba(0, 0, 0, 0) 70",
+      "div.grid-backdrop → linear-gradient(rgb(221, 210, 194) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgb(221, 210, 194) 1px, ",
+      "div.grid-backdrop.soft → linear-gradient(rgb(221, 210, 194) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgb(221, 210, 194) 1px, "
+     ],
+     "gradientText": 0,
+     "hairlines": 2,
+     "hairlineSamples": [
+      "article.glass.edu-card 342px",
+      "footer.footer 390px"
+     ],
+     "outlinedBoxes": 26,
+     "dashed": 0,
+     "blurred": 27,
+     "roundedBoxes": 30,
+     "boxRadius": 16,
+     "squareMedia": 2,
+     "roundedMedia": 6,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1980
+      },
+      {
+       "count": 11,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 3852
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.91
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 74,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "orbitron",
+     "rajdhani",
+     "font awesome 6 brands",
+     "font awesome 6 free"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 10918,
+    "margins": {
+     "left": 25,
+     "right": 25
+    },
+    "sections": [
+     {
+      "sel": "section#home.hero",
+      "tag": "section",
+      "top": 74,
+      "height": 844,
+      "words": 24,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Muhammad",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 35,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.section",
+      "tag": "section",
+      "top": 918,
+      "height": 826,
+      "words": 88,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "About",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 53,
+      "right": 54,
+      "textLeft": 53,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#skills.section",
+      "tag": "section",
+      "top": 1744,
+      "height": 1372,
+      "words": 74,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Technical",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid-backdrop.soft",
+      "tag": "div",
+      "top": 3116,
+      "height": 3065,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.container",
+      "tag": "div",
+      "top": 3172,
+      "height": 2953,
+      "words": 122,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Education &",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#projects.section",
+      "tag": "section",
+      "top": 6181,
+      "height": 3599,
+      "words": 231,
+      "media": 6,
+      "middle": 0,
+      "heading": {
+       "text": "Featured",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 25,
+      "right": 25,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.section",
+      "tag": "section",
+      "top": 9780,
+      "height": 980,
+      "words": 20,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let's",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 38,
+      "right": 38,
+      "textLeft": 38,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 10760,
+      "height": 158,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 53,
+      "textLeft": 24,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Muhammad Taimoor Mansha",
+      "size": 36,
+      "top": 250,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 45,
+      "n": 17
+     },
+     {
+      "x": 24,
+      "n": 1
+     },
+     {
+      "x": 59,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 19,
+    "bodySize": 14,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "3 eyebrow/kicker label(s) above headings: \"Who I Am\" above \"About Me\"; \"My Expertise\" above \"Technical Skills\"; \"Background\" above \"Education & Certificates\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"01\", \"02\", \"03\", \"04\", \"05\", \"06\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "7 tiny uppercase letter-spaced labels (e.g. \"Who I Am\", \"My Expertise\", \"Background\", \"Featured\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "3 gradient fill(s): div#ambientSpotlight.ambient-spotlight → radial-gradient(600px at 50% 40%, rgba(53, 107, 140, 0.05), rgba(193, 154, 107, 0.03) 40%, rgba(0, 0, 0, 0) 70 | div.grid-backdrop → linear-gradient(rgb(221, 210, 194) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgb(221, 210, 194) 1px,  | div.grid-backdrop.soft → linear-gradient(rgb(221, 210, 194) 1px, rgba(0, 0, 0, 0) 1px), linear-gradient(90deg, rgb(221, 210, 194) 1px, ",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "2 thin rule(s)/divider line(s): article.glass.edu-card 1104px | footer.footer 1440px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "26 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "27 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "2 row(s) of identical cards each topped with a small icon (4, 11 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #f5f0e8, section #f5f0e8, section #fffcf7).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "27 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"Muhammad Taimoor Mansha\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\Taimoor Mobile Data\\Taimoor Portfolio\\.taste-skill\\inspect\\desktop-fold.jpg",
+   "pages": [
+    "D:\\Taimoor Mobile Data\\Taimoor Portfolio\\.taste-skill\\inspect\\desktop-page-01.jpg",
+    "D:\\Taimoor Mobile Data\\Taimoor Portfolio\\.taste-skill\\inspect\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\Taimoor Mobile Data\\Taimoor Portfolio\\.taste-skill\\inspect\\tablet-fold.jpg",
+   "pages": [
+    "D:\\Taimoor Mobile Data\\Taimoor Portfolio\\.taste-skill\\inspect\\tablet-page-01.jpg",
+    "D:\\Taimoor Mobile Data\\Taimoor Portfolio\\.taste-skill\\inspect\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\Taimoor Mobile Data\\Taimoor Portfolio\\.taste-skill\\inspect\\mobile-fold.jpg",
+   "pages": [
+    "D:\\Taimoor Mobile Data\\Taimoor Portfolio\\.taste-skill\\inspect\\mobile-page-01.jpg",
+    "D:\\Taimoor Mobile Data\\Taimoor Portfolio\\.taste-skill\\inspect\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
