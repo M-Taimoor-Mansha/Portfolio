@@ -104,12 +104,20 @@
           </div>
 
           <div class="emblem-wrap reveal">
-            <button class="emblem" id="emblem" aria-label="Reveal tech info">
-              <i class="fa-solid fa-cube"></i>
+            <button
+              type="button"
+              class="emblem"
+              id="emblem"
+              aria-label="Toggle interactive tech core info"
+              aria-expanded="false"
+              aria-controls="emblemBadge"
+            >
+              <i class="fa-solid fa-cube" aria-hidden="true"></i>
+              <span class="emblem-tooltip" role="tooltip">Interactive Tech Core</span>
             </button>
-            <div class="emblem-badge" id="emblemBadge">
+            <div class="emblem-badge" id="emblemBadge" role="region" aria-label="Tech Core Details">
               <b>MERN + WebGL</b>
-              <small>Click the core to explode it</small>
+              <small>Click to explode 3D core</small>
             </div>
           </div>
 
@@ -134,7 +142,7 @@
               <p>
                 I am a passionate MERN Stack Developer dedicated to building scalable, user-centric web
                 applications. With a strong foundation in modern JavaScript architectures, I specialize in
-                crafting seamless user interfaces with React and robust, API-driven backend services using
+                crafting responsive, high-performance user interfaces with React and robust, API-driven backend services using
                 Node.js, Express, and MongoDB. I thrive on translating complex requirements into clean,
                 maintainable code and building high-performance digital products.
               </p>
@@ -176,7 +184,7 @@
           <article class="glass edu-card reveal">
             <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
             <div class="edu-body">
-              <span class="eyebrow accent-text">Bachelor's Degree</span>
+              <span class="eyebrow accent-text eyebrow-case">Bachelor's Degree</span>
               <h3>Bachelor of Science in Computer Science</h3>
               <p class="edu-uni">University of the Punjab</p>
               <div class="meta">
@@ -189,7 +197,7 @@
 
           <div class="sub-head reveal" >
             <div>
-              <p class="eyebrow accent-text">Continuous Learning</p>
+              <p class="eyebrow accent-text eyebrow-case">Continuous Learning</p>
               <h3>Professional Certificates</h3>
             </div>
             <span class="count">11 credentials</span>
