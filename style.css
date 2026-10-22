@@ -225,6 +225,26 @@ img { display: block; max-width: 100%; }
 .cursor-ring.grow { width: 62px; height: 62px; background: rgba(53, 107, 140, 0.06); border-color: var(--accent); }
 @media (hover: none) { .cursor-dot, .cursor-ring { display: none; } }
 
+/* ---------- Skip link (Accessibility) ---------- */
+.skip-link {
+  position: absolute;
+  top: -120px;
+  left: 1.5rem;
+  z-index: 10001;
+  padding: 0.75rem 1.25rem;
+  background: var(--primary);
+  color: var(--surface-elevated);
+  font-family: "Orbitron", sans-serif;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  transition: top 0.25s ease;
+}
+.skip-link:focus-visible {
+  top: 1.5rem;
+}
+
 /* ---------- Navbar ---------- */
 .navbar {
   position: fixed; top: 0; left: 0; right: 0; z-index: 50;
@@ -262,8 +282,10 @@ img { display: block; max-width: 100%; }
   content: ""; position: absolute; left: 0; bottom: -4px; height: 2px; width: 0;
   background: var(--primary); transition: width 0.3s;
 }
-.nav-links a:hover { color: var(--primary); }
-.nav-links a:hover::after { width: 100%; }
+.nav-links a:hover,
+.nav-links a.active { color: var(--primary); }
+.nav-links a:hover::after,
+.nav-links a.active::after { width: 100%; }
 .nav-toggle { display: none; background: none; border: 0; color: var(--foreground); font-size: var(--text-lg); cursor: pointer; }
 
 /* ---------- Hero ---------- */
@@ -354,6 +376,11 @@ img { display: block; max-width: 100%; }
   background: var(--primary-hover);
   border-color: var(--primary-hover);
   box-shadow: 0 4px 20px rgba(53, 107, 140, 0.22);
+}
+.btn-primary.is-sending {
+  background: var(--primary-hover);
+  pointer-events: none;
+  opacity: 0.9;
 }
 
 /* Secondary outlined button */

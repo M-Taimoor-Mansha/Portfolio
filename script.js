@@ -228,10 +228,22 @@ document.getElementById("year").textContent = new Date().getFullYear();
     target.y = -((e.clientY / window.innerHeight) * 2 - 1);
   });
 
+  let isHeroVisible = true;
+  if ("IntersectionObserver" in window) {
+    const heroObserver = new IntersectionObserver(
+      (entries) => {
+        isHeroVisible = entries[0].isIntersecting;
+      },
+      { threshold: 0 }
+    );
+    heroObserver.observe(container);
+  }
+
   const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)");
   const clock = new THREE.Clock();
   const animate = () => {
     requestAnimationFrame(animate);
+    if (!isHeroVisible) return;
     if (prefersReduced.matches) {
       renderer.render(scene, camera);
       return;
@@ -467,6 +479,28 @@ if (window.gsap) {
             },
           });
         }
+
+        // Active section link highlighting (A11y & Navigation feedback)
+        const navAnchorLinks = document.querySelectorAll(".nav-links a");
+        const sections = document.querySelectorAll("section[id]");
+        sections.forEach((sec) => {
+          ScrollTrigger.create({
+            trigger: sec,
+            start: "top 45%",
+            end: "bottom 45%",
+            onToggle: (self) => {
+              if (self.isActive) {
+                const id = sec.getAttribute("id");
+                navAnchorLinks.forEach((a) => {
+                  const active = a.getAttribute("href") === `#${id}`;
+                  a.classList.toggle("active", active);
+                  if (active) a.setAttribute("aria-current", "page");
+                  else a.removeAttribute("aria-current");
+                });
+              }
+            },
+          });
+        });
       }
     }
   );
@@ -609,11 +643,23 @@ const contactForm = document.getElementById("contactForm");
 if (contactForm) {
   contactForm.addEventListener("submit", (e) => {
     e.preventDefault();
+    const btn = contactForm.querySelector('button[type="submit"]');
     const name = document.getElementById("cName").value.trim();
     const subject = document.getElementById("cSubject").value.trim();
     const message = document.getElementById("cMessage").value.trim();
     const subj = encodeURIComponent(subject || `Portfolio message from ${name || "a visitor"}`);
     const body = encodeURIComponent(`${message}\n\n— ${name}`);
+
+    if (btn) {
+      btn.classList.add("is-sending");
+      const originalHTML = btn.innerHTML;
+      btn.innerHTML = '<i class="fa-solid fa-check"></i> Preparing email...';
+      setTimeout(() => {
+        btn.classList.remove("is-sending");
+        btn.innerHTML = originalHTML;
+      }, 3000);
+    }
+
     window.location.href = `mailto:taimoorc067@gmail.com?subject=${subj}&body=${body}`;
   });
 }
